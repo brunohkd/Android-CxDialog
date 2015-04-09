@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PrincipalActivity">
+
+    <Button
+        android:id="@+id/idBtnMostraSimples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="alertaTresBoroes"
+        android:text="@string/tres_botoes" />
+
+    <Button
+        android:id="@+id/idBtnMostraOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/idBtnMostraSimples"
+        android:onClick="alertaVariasOpcUmaEscolha"
+        android:layout_alignStart="@+id/idBtnMostraSimples"
+        android:layout_below="@+id/idBtnMostraSimples"
+        android:text="@string/uma_opcao" />
+
+    <ImageButton
+
+        android:id="@+id/idBtnImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBtnMostraOpcoes"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/images" />
+
+    <Button
+        android:id="@+id/idBtnVariasOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBtnImageButton"
+        android:onClick="alertaMultiOpcoes"
+        android:layout_centerHorizontal="true"
+        android:text="@string/multiplas_opcao" />
+
+</RelativeLayout>

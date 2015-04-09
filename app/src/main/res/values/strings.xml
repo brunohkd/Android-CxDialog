@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CxDialogo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tres_botoes">Alerta Três Botões</string>
+    <string name="uma_opcao">Escolhe Uma Opção</string>
+    <string name="multiplas_opcao">Multiplas Opções</string>
+    <string name="vai_fechar">"Vai fechar!!!"</string>
+</resources>
